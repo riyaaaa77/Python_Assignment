@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
 
 
 def count_substring(string, sub_string):
@@ -17,9 +13,6 @@ if __name__ == '__main__':
     
     count = count_substring(string, sub_string)
     print(count)
-
-
-# In[ ]:
 
 
 
