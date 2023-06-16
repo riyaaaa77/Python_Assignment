@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
 
 # Function to determine the winner between two moves
 def determine_winner(player1_move, player2_move):
@@ -40,14 +35,6 @@ elif player1_wins < player2_wins:
 else:
     print("Final Result: Draw")
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
