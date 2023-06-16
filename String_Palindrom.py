@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[16]:
 
 
 def is_palindrome(string):
@@ -9,7 +6,7 @@ def is_palindrome(string):
     cleaned_string = ''.join(c.lower() for c in string if c.isalpha())
 
     # Compare the cleaned string with its reverse
-    return cleaned_string == cleaned_string[-1::-1]
+    return cleaned_string == cleaned_string[::-1]
 
 # Example usage
 string = input("Enter a string: ")
@@ -19,13 +16,7 @@ else:
     print("The string is not a palindrome.")
 
 
-# In[ ]:
 
-
-
-
-
-# In[ ]:
 
 
 
