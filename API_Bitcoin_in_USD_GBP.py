@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
 
 
 import requests
@@ -35,7 +31,8 @@ for timestamp, prices in data_points.items():
     print(f"Timestamp: {timestamp}, USD Price: {prices['USD']}, GBP Price: {prices['GBP']}")
 
 
-# In[ ]:
+
+#Minimum USD and GBP and Maximum USD and GBP
 
 
 import requests
